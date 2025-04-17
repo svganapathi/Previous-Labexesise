@@ -1,0 +1,12 @@
+import numpy as np
+print('A sequence Array')
+x = np.arange(10)
+print(x)
+print('Slice first 3 values')
+print(x[:3])
+print('Slice elements after index 7')
+print(x[7:])
+print('slice middle values')
+print(x[4:7])
+print('slice every second element')
+print(x[::2])
